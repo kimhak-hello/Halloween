@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Qahiri&family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Open+Sans&family=Qahiri&family=UnifrakturMaguntia&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(../image/364199.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(19, 18, 18);
+    background-blend-mode:screen;
+    background-position: 100% 0%;
+  
+
+}
+.active{
+    background:rgb(186, 189, 188) ;
+}
+.navbar{
+    background: rgb(216, 216, 216);
+    /* background: rgb(71, 71, 71); */
+    display: flex;
+    justify-content: center;
+    opacity: 0.4;
+    box-shadow:2px 2px 12px rgba(0,0,0,10);
+   
+}
+.navbar .navbar-containt{
+    display: flex;
+    list-style: none;
+    margin: 0;   
+}
+.navbar .navbar-containt li{
+    padding: 15px;
+    text-transform: uppercase;
+}
+.navbar .navbar-containt li a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    border-right: 2px solid;
+    padding-right: 20px;
+    
+}
+.navbar .navbar-containt li:hover{
+    background: rgb(186, 189, 188);
+    /* background:orange; */
+}
+
+/* team */
+
+h1{
+    text-align: center;
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 70px;
+    text-transform: lowercase;
+    color: orange;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.9);
+}
+.container-card{
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    opacity: 0.8;
+    padding-bottom: 30px;
+    
+   
+   
+}
+.container-card .card{
+    background: rgb(17, 17, 17);
+    text-align: center;
+    padding: 20px 10px 10px 10px;
+    color: white;
+    border-radius: 10px;
+    box-shadow:12px 12px 15px rgba(0,0,0,0.9);
+    border:2px solid rgba(255, 255, 255, 0.4);
+}
+.container-card .card .full-name{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+/* challenges */
+.challenges{
+    width: 80%;
+    margin: 65px auto;
+    opacity: 0.7;
+}
+.challenges .challenge{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    margin: 20px;
+    box-shadow:12px 12px 12px rgba(0,0,0,0.9);
+}
+.challenges .challenge .text{
+    display: flex;
+}
+.challenges .challenge .text .imag{
+    padding-right: 10px;
+    padding-top: 13px;
+    
+}
+.challenges .challenge .text .paragraph h3{
+    line-height: 0.2;
+    color: white;
+}
+.challenges .challenge .text .paragraph p{
+   font-size: 13px;
+   color:white;
+}
+.challenges .challenge .text .paragraph .time{
+    display: flex;
+}
+.challenges .challenge .text .paragraph .time p{
+    padding-right: 30px;
+}
+.challenges .challenge a{
+    text-decoration: none;
+    color: black;
+    background: orange;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* scores */
+.card-scores{
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+
+}
+.card-scores .card-scor{
+    margin: 10px;
+    padding: 30px;
+    /* border: 1px solid; */
+    background: black;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow:12px 12px 12px rgba(0,0,0,0.9);
+    opacity: 0.8;
+    color: white;
+}
+.card-scores .card-scor h3{
+    text-align: center;
+    font-size: 30px;
+}
+.card-scores .card-scor p{
+    text-align: center;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
